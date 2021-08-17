@@ -6,7 +6,7 @@ if (process.env.preact === 'true') {
 }
 
 const express = require('express')
-const port = parseInt(process.env.port, 10) || 3000
+const port = parseInt(process.env.port, 10) || 3001
 const dev = process.env.NODE_ENV !== 'production'
 const path = require('path')
 const { parse } = require('url')
